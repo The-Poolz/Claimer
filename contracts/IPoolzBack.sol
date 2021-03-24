@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.4.24;
+pragma solidity >=0.4.24 <0.7.0;
 
 interface IPoolzBack {
     // enum PoolStatus {Created, Open, PreMade, OutOfstock, Finished, Close} //the status of the pools

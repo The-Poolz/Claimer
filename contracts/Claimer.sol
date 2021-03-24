@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.4.24;
+pragma solidity >=0.4.24 <0.7.0;
 
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/access/Ownable.sol";
 import "./IPoolzBack.sol";
 
 contract Claimer is Ownable {
